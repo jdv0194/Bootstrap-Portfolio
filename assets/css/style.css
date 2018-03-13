@@ -1,0 +1,235 @@
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0;
+  height: 40px;
+}
+.navbar {
+  min-height: 40px;
+  background: rgb(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: rgb(51, 122, 183);
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-pills {
+  margin-right: 5px;
+}
+
+.firstname {
+  margin-left: 150px;
+}
+
+.lastname {
+  margin-left: 10px;
+}
+
+.about-link {
+  margin-left: 520px;
+}
+
+body {
+  background: url(images/ciity.png);
+}
+
+.aboutme {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 65px;
+  margin-right: 550px;
+  max-width: 650px;
+}
+
+img {
+  width: 220px;
+  margin-left: 25px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.aboutMeInfo {
+  margin-left: 0px;
+  font-family: "Arial";
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 15px;
+  color: black;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.801);
+  font-family: "Georgia";
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: black;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+  padding-top: 1px;
+  border-color: #337ab7;
+  animation: colorchange 2s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    background: rgb(51, 122, 183, 0.7);
+  }
+  50% {
+    background: rgba(255, 255, 255, 0.349);
+  }
+  100% {
+    background: rgb(51, 122, 183, 0.7);
+  }
+}
+
+.card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(51, 122, 183, 0.7);
+  background-color: black;
+  border-top: solid 10px rgb(51, 122, 183, 0.7);
+}
+
+p {
+  background-color: rgba(255, 255, 255);
+  padding-left: 30px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contactMe {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  content: "";
+  display: table;
+  clear: both;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 550px;
+  max-width: 650px;
+}
+
+.contactCard {
+  margin-left: 190px;
+}
+
+form {
+  font-family: "Serif";
+  font-weight: bold;
+  position: relative;
+  max-width: 650px;
+  content: "";
+  display: table;
+  clear: both;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 12px;
+  padding-bottom: 20px;
+}
+
+.submitButton {
+  background: rgb(51, 122, 183);
+  border-radius: 15px;
+}
+
+.portfolioText {
+  color: rgba(255, 255, 255, 0.801);
+  font-size: 30px;
+  font-weight: bold;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 550px;
+}
+
+.portfolioText {
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.portfolioExamples {
+  width: 300px;
+  height: 200px;
+  margin: 4px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+
+.portfolioExamples img {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioExamples h2 {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  margin-left: 40px;
+  background-color: rgba(0, 0, 0, 0.808);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: solid #337ab7;
+}
+
+.portfolioExamples img:hover {
+  filter: blur(2px);
+  transition: 0.3s;
+}
+
+.portfolioExamples h2:hover {
+  background-color: rgb(51, 122, 183, 0.7);
+}

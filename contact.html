@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Juan Valdivia</title>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <h1>Juan Valdivia</h1>
+      </div>
+
+      <ul class="nav nav-pills navbar-right" role="tablist">
+        <li class="nav-item">
+          <a href="index.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a href="contact.html" data-toggle="tab">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</head>
+<style type="text/css">
+  body {
+    background: url("assets/images/city.png") right bottom;
+    max-width: 100%;
+  }
+</style>
+
+
+<body>
+
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 contactMe">Contact Me</div>
+    </div>
+
+    <div class="row">
+
+      <form class="col-md-5">
+        <!-- Email Input -->
+        <div class="form-group formEmail">
+          <label class="col-form-label" for="formGroupExampleInput">Email</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="example@gmail.com">
+        </div>
+        <!-- Name Input -->
+        <div class="form-group">
+          <label class="col-form-label" for="formGroupExampleInput2">Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="ex. John Smith">
+        </div>
+        <!-- Message Input -->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <input class="submitButton" type="submit" name="submitButton" onclick="alert('Message Sent!')">
+      </form>
+
+      <div class="col-sm-6">
+        <div class="card contactCard">
+          <div class="card-body">
+            <h4 class="card-title">Let's Connect!</h4>
+            <ul>
+              <li>
+                <a href="https://github.com/jdv0194" target="_blank">
+                  <img src="assets\images\GitHub-Mark.png" alt="github logo.">
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/juanvaldivia181994/" target="_blank">
+                  <img class=".pics" src="assets/images/linkedin.jpg" alt="linkedin logo.">
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">Copyright &copy; 2018 Juan Valdivia</div>
+
+</body>
+
+</html>
