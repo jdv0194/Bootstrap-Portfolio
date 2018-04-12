@@ -2,114 +2,113 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width = device-width, initial-scale = 1">
-
-    <!-- Bootstrap Link -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-    <title>Juan Valdivia</title>
-
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <h1>Juan Valdivia</h1>
-            </div>
-
-            <ul class="nav nav-pills navbar-right" role="tablist">
-                <li class="nav-item active">
-                    <a href="index.html" data-toggle="tab">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
-<style type="text/css">
-    body {
-        background: url("assets/images/city.png") right bottom;
-        max-width: 100%;
-    }
-</style>
 
 <body>
+    <div id="landing-page" class="row">
+        <div class="col-lg-12">
+            <img id="background-img">
 
-    <div class="container">
+            <h1>Hello! Welcome to my Portfolio
+                <br>
 
-        <div class="row">
-            <div class="col-md-6 aboutme">About Me</div>
+            </h1>
+            <button id="about-me-btn" class="button">
+                <span>About Me</span>
+            </button>
+
+
         </div>
-
-        <div class="row">
-
-            <div class="col-md-3">
-                <img class="profilePic" src="assets\images\13346919_1117241558337738_1134863373312661117_n.jpg" alt="profile picture.">
-            </div>
-
-            <div class="col-md-6">
-                <p class="aboutMeInfo">Hello and welcome to my portfolio! My name is Juan Valdivia. I am currently living in Piscataway, NJ. I love
-                    everything that has to do with technology. I got into coding because I grew up playing alot of video
-                    games and always wondered how they were made. I have worked in many different field jobs from car dealerships,
-                    to waiting on tables. I hope to really grow in this field and one day work as a web developer!</p>
-            </div>
-
-
-
-            <div class="col-sm-3">
-                <div class="card colorChange">
-                    <div class="card-body">
-                        <h4 class="card-title">Let's Connect!</h4>
-                        <ul>
-                            <li>
-                                <a href="https://github.com/jdv0194" target="_blank">
-                                    <img src="assets\images\GitHub-Mark.png" alt="github logo.">
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="https://www.linkedin.com/in/juanvaldivia181994/" target="_blank">
-                                    <img src="assets/images/linkedin.png" alt="linkedin logo.">
-                                </a>
-                            </li>
-                    </div>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
+    </div>
+    <div id="navbar" class="container">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">Copyright &copy; 2018 Juan Valdivia</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <div id="about-me" class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>About Me</h2>
+                <br>
+                <img id="sep" src="assets/images/sep.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>— I'm Juan Valdivia, a freelance developer & designer.</h3>
+            </div>
+            <div class="col-lg-6">
+                <p>
+                    I've always been drawn to both design and development. My skills are broad: front end to back end development. I enjoy each
+                    aspect of it. I love building sites & mobile apps from start to finish for clients all over the world.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>
+                    My Stack
+                </h2>
+                <br>
+                <img id="sep" src="assets/images/sep.png">
+            </div>
+        </div>
+
+        <div id="stack-back" class="row">
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/html.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/css.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/js.png">
+            </div>
+        </div>
+        <div id="stack-back" class="row">
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/java.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/nodejs.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/mysql.png">
+            </div>
+        </div>
+        <div id="stack-back" class="row">
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/express.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/mongo.png">
+            </div>
+            <div class="col-lg-4">
+                <img id="stack-img" src="assets/images/react.png">
+            </div>
+        </div>
+    </div>
+
 </body>
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+<!-- javascript -->
+<script type="text/javascript" src="assets/javascript/script.js"></script>
 
 </html>
