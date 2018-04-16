@@ -329,7 +329,7 @@ p {
   }
 
   #stack-img {
-    width: 80px;
+    width: 80px !important;
 
     filter: grayscale(1);
   }
