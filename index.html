@@ -19,10 +19,8 @@
         <div class="col-lg-12">
             <img id="background-img">
 
-            <h1>Hello! Welcome to my Portfolio
-                <br>
-
-            </h1>
+            <h1>Hello! Welcome to my Portfolio</h1>
+            <br>
             <button id="about-me-btn" class="button">
                 <span>About Me</span>
             </button>
@@ -31,8 +29,8 @@
         </div>
     </div>
     <div id="navbar" class="container">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
+        <a href="#home">Home</a>
+        <a class="active" href="#news">About Me</a>
         <a href="#contact">Contact</a>
     </div>
 
@@ -52,8 +50,9 @@
             </div>
             <div class="col-lg-6">
                 <p>
-                    I've always been drawn to both design and development. My skills are broad: front end to back end development. I enjoy each
-                    aspect of it. I love building sites & mobile apps from start to finish for clients all over the world.
+                    I've always been drawn to both design and development. My skills are broad; ranging front end to back end development. I
+                    enjoy each aspect of it, and love building sites & mobile apps from start to finish for clients all over
+                    the world.
                 </p>
             </div>
         </div>
@@ -102,6 +101,102 @@
             </div>
         </div>
     </div>
+    <div id="contact-me" class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>
+                    Contact Me
+                </h2>
+                <br>
+                <img id="sep" src="assets/images/sep.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img class="center-block" id="me" src="assets/images/me.jpg">
+
+                                <div class="col-md-12">
+
+                                    <img id="linked" src="assets/images/linkedin.png">
+
+
+                                    <img id="git" src="assets/images/github.png">
+
+
+                                    <img id="mail" src="assets/images/mail.png">
+
+
+                                    <img id="phone" src="assets/images/phone.png">
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="form_name">First Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="John *" required="required" data-error="First Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="form_lastname">Last Name *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe *" required="required" data-error="Last Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="johndoe@somewhere.com *" required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="(555)-555-5555">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                                        data-error="Please,leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-send" value="Send message">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+            </div>
+
+            </form>
+        </div>
+    </div>
+
 
 </body>
 

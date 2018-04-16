@@ -1,6 +1,7 @@
 #background-img {
   position: relative;
   background-image: url("../images/background.jpg");
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,8 +23,8 @@ h1 {
   border-right: 0.15em solid crimson;
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: 0.15em;
-  animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  letter-spacing: 0.1em;
+  animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
@@ -32,7 +33,7 @@ h1 {
     width: 0;
   }
   to {
-    width: 64%;
+    width: 80%;
   }
 }
 
@@ -48,7 +49,7 @@ h1 {
 }
 
 .button {
-  animation: delay 12s;
+  animation: delay 3s;
 
   outline: none;
   position: absolute;
@@ -111,6 +112,7 @@ h1 {
   overflow: hidden;
   background-color: #333;
   width: 100%;
+  z-index: 2;
 }
 
 #navbar a {
@@ -173,12 +175,115 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 80%;
+  width: 200px;
+
   filter: grayscale(1);
-  margin: 20px;
+  margin: auto auto 100px auto;
 }
 
 #stack-img:hover {
   filter: grayscale(0);
+}
+
+.btn {
+  background-color: crimson;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#me {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#linked {
+  width: 30px;
+
+  margin: 5px 0 0 30%;
+}
+
+#git {
+  width: 30px;
+  margin-top: 5px;
+}
+
+#mail {
+  width: 30px;
+  margin-top: 5px;
+}
+
+#phone {
+  width: 30px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    border-right: 0.15em solid crimson;
+    /* white-space: nowrap; */
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: crimson;
+    }
+  }
+
+  .button {
+    animation: delay 3s;
+
+    outline: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background-color: crimson;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  @keyframes delay {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
