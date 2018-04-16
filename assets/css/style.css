@@ -152,6 +152,10 @@ h2 {
   font-weight: bold;
 }
 
+h3 span {
+  color: crimson;
+}
+
 h3 {
   font-size: 28px;
   text-align: center;
@@ -196,10 +200,19 @@ p {
   border-radius: 50%;
 }
 
+#me:hover {
+  width: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.727);
+}
+
 #linked {
   width: 30px;
 
   margin: 5px 0 0 30%;
+}
+
+#linked:hover {
+  width: 40px;
 }
 
 #git {
@@ -207,14 +220,30 @@ p {
   margin-top: 5px;
 }
 
+#git:hover {
+  width: 40px;
+}
+
 #mail {
   width: 30px;
   margin-top: 5px;
 }
 
+#mail:hover {
+  width: 40px;
+}
+
 #phone {
   width: 30px;
   margin-top: 5px;
+}
+
+#phone:hover {
+  width: 40px;
+}
+
+.form-control {
+  box-shadow: 5px 8px 15px 1px rgba(41, 41, 41, 0.282);
 }
 
 @media screen and (max-width: 450px) {
@@ -297,5 +326,11 @@ p {
     100% {
       opacity: 1;
     }
+  }
+
+  #stack-img {
+    width: 80px;
+
+    filter: grayscale(1);
   }
 }
