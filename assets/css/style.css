@@ -217,7 +217,7 @@ p {
   margin-top: 5px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   h1 {
     position: absolute;
     top: 50%;
@@ -294,7 +294,6 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
   }
 }
