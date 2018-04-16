@@ -1,13 +1,13 @@
 #background-img {
   position: relative;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/dev.png");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
-  filter: blur(7px);
+  filter: blur(0px);
 }
 
 h1 {
@@ -223,7 +223,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: crimson;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -289,13 +289,12 @@ p {
 
   #background-img {
     position: relative;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/dev2.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    filter: blur(4px);
   }
 }
