@@ -3,7 +3,7 @@ $("#about-me-btn").click(function() {
     {
       scrollTop: $("#navbar").offset().top
     },
-    2000
+    800
   );
 });
 
@@ -21,3 +21,30 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$("#home-nav").click(function() {
+  $("html, body").animate(
+    {
+      scrollTop: $("#landing-page").offset().top
+    },
+    800
+  );
+});
+
+$("#contact-nav").click(function() {
+  $("html, body").animate(
+    {
+      scrollTop: $("#contact-form").offset().top
+    },
+    800
+  );
+});
+
+$("#about-nav").click(function() {
+  $("html, body").animate(
+    {
+      scrollTop: $("#about-me").offset().top
+    },
+    800
+  );
+});
