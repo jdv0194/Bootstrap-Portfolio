@@ -250,6 +250,7 @@ p {
 @media screen and (max-width: 700px) and (min-width: 300px) {
   #landing-page #background-img {
     background-image: url("../images/dev2.png") !important;
+    background-attachment: unset;
   }
 
   h1 {
